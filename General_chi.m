@@ -1,3 +1,5 @@
+%This code was developed to obtain a general Chi value for the LOFS study area. Based on Topo-Toolbox tools.
+%https://topotoolbox.wordpress.com
 %% Carging DEM
 clc
 clear
@@ -5,7 +7,7 @@ clear
 addpath(genpath('C:\topotoolbox-master\topotoolbox-master\TopoToolbox-2'));
 format short 
 %Carging the DEM
-DEM = GRIDobj('D:\Documents\Recursos_hidricos\TESIS\SRTM\SRTM_1_AE_19_07.tif');
+DEM = GRIDobj('SRTM_1_AE_19_07.tif');
 %% Adjust DEM
 info(DEM)
 prompt1 = 'Correction value for NaN = '; 
