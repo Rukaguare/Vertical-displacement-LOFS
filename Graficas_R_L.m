@@ -1,3 +1,6 @@
+%This code presents a series of codes used for the elaboration of figures, which contrasted the variables Left -Right. Based on Topo-Toolbox tools.
+%https://topotoolbox.wordpress.com
+
 % Figure 1 Graphic metodology
 figure(1), hold on
 
