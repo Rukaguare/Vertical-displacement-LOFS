@@ -1,6 +1,6 @@
 %This code was developed to obtain a general Chi value for the LOFS study area. Based on Topo-Toolbox tools.
 %https://topotoolbox.wordpress.com
-%% Carging DEM
+%% Carging DEM;
 clc
 clear
 %Carging las apps
