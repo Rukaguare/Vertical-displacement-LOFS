@@ -1,3 +1,6 @@
+%This code was developed in order to obtain the general dz (VOKp) values for the LOFS study area.  Based on Topo-Toolbox tools.
+%https://topotoolbox.wordpress.com
+
 clc
 clear
 
@@ -33,7 +36,7 @@ save step_b_01.mat
 save step_b_02.mat
 
 
-%% Desde aquí comienzo yo!
+%% Desde aquÃ­ comienzo yo!
 DEM = GRIDobj('D:\Documents\Recursos_hidricos\TESIS\SRTM\SRTM_1_AE_19_07.tif');
 A = flowacc(FD);
 %% Concavidad figure
